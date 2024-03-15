@@ -2,6 +2,7 @@
 import './App.css';
 import Banner from './Component/Banner/Banner';
 import Header from './Component/Header/Header';
+import Recipes from './Component/Recipes/Recipes';
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <Header></Header>
       <Banner></Banner>
+      <Recipes></Recipes>
     </>
   )
 }
