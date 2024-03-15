@@ -3,7 +3,7 @@ import { IoSearchOutline, IoPersonCircleOutline } from "react-icons/io5";
 const Header = () => {
     return (
         <header>
-            <div className="navbar bg-base-100 px-24 mt-12">
+            <div className="navbar bg-base-100 px-4 lg:px-24 my-4 lg:my-12 ">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex="0" role="button" className="btn btn-ghost lg:hidden">
@@ -16,7 +16,7 @@ const Header = () => {
                             <li><a>Search</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-3xl font-bold">Healthy Heaven</a>
+                    <a className="btn btn-ghost text-xl lg:text-3xl font-bold">Healthy Heaven</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -26,12 +26,12 @@ const Header = () => {
                         <li><a>Search</a></li>
                     </ul>
                 </div>
-                <div className="navbar-end">
-                    <label className="input input-bordered flex items-center gap-2 mr-4">
+                <div className="navbar-end ">
+                    <label className="input input-bordered items-center gap-2 mr-4 hidden lg:flex">
                         <IoSearchOutline></IoSearchOutline>
                         <input type="text" className="grow" placeholder="Search" /> 
                     </label>
-                    <div className="text-3xl p-2 rounded-full bg-[#0BE58A]">
+                    <div className="text-3xl p-2 rounded-full bg-[#0BE58A] cursor-pointer">
                         <IoPersonCircleOutline></IoPersonCircleOutline>
                     </div>
                 </div>
