@@ -1,4 +1,5 @@
 
+import { IoSearchOutline, IoPersonCircleOutline } from "react-icons/io5";
 const Header = () => {
     return (
         <header>
@@ -15,7 +16,7 @@ const Header = () => {
                             <li><a>Search</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">Healthy Heaven</a>
+                    <a className="btn btn-ghost text-3xl font-bold">Healthy Heaven</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -26,8 +27,13 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <input type="text" placeholder="Search" className="input input-bordered w-full max-w-xs" />
-                    <a className="btn">Button</a>
+                    <label className="input input-bordered flex items-center gap-2 mr-4">
+                        <IoSearchOutline></IoSearchOutline>
+                        <input type="text" className="grow" placeholder="Search" /> 
+                    </label>
+                    <div className="text-3xl p-2 rounded-full bg-[#0BE58A]">
+                        <IoPersonCircleOutline></IoPersonCircleOutline>
+                    </div>
                 </div>
             </div>
         </header>
