@@ -11,7 +11,7 @@
         "400 g mushroom"
       ],
       "preparing_time": 30,
-      "calories": "320 calories"
+      "calories": 320
     },
     {
       "recipe_image": "https://i.ibb.co/TqLJpPT/food-two.jpg",
@@ -25,7 +25,7 @@
         "100 g grated Parmesan cheese"
       ],
       "preparing_time": 25,
-      "calories": "450 calories"
+      "calories": 450
     },
     {
       "recipe_image": "https://i.ibb.co/23snxXs/food-three.jpg",
@@ -40,7 +40,7 @@
         "Spices: turmeric, cumin, coriander, chili powder"
       ],
       "preparing_time": 40,
-      "calories": "280 calories"
+      "calories": 280
     },
     {
       "recipe_image": "https://i.ibb.co/HF5RLx4/food-four.jpg",
@@ -56,7 +56,7 @@
         "50 ml olive oil"
       ],
       "preparing_time": 15,
-      "calories": "180 calories"
+      "calories": 180
     },
     {
       "recipe_image": "https://i.ibb.co/VDrMHXz/food-five.jpg",
@@ -71,7 +71,7 @@
         "100 g raw salmon or tuna"
       ],
       "preparing_time": 20,
-      "calories": "250 calories"
+      "calories": 250
     },
     {
       "recipe_image": "https://i.ibb.co/yXmqRG3/food-six.jpg",
@@ -87,7 +87,7 @@
         "200 ml milk"
       ],
       "preparing_time": 50,
-      "calories": "380 calories"
+      "calories": 380
     }
   ]
   

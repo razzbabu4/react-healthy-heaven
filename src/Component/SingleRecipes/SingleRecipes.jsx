@@ -22,7 +22,7 @@ const SingleRecipes = ({ recipes, handleWantToCook }) => {
                     <hr className="my-4" />
                     <div className="flex gap-5 mb-6">
                         <p className="flex items-center gap-2"><IoTimeOutline></IoTimeOutline> {preparing_time} minutes</p>
-                        <p className="flex items-center gap-2"><AiOutlineFire></AiOutlineFire> {calories}</p>
+                        <p className="flex items-center gap-2"><AiOutlineFire></AiOutlineFire> {calories} calories</p>
                     </div>
                     <button onClick={() => handleWantToCook(recipes)} className="btn bg-[#0BE58A]">Want to Cook</button>
                 </div>

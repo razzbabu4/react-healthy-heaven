@@ -9,14 +9,14 @@ const Cook = ({cookOrder}) => {
                 <h1 className="mb-2 text-2xl font-semibold">Want to Cook: {cookOrder.length}</h1>
                 <div className="divider"></div>
             </div>
-            <div className="mb-2 flex justify-around">
+            <div className="mb-2 flex justify-around text-[#878787] font-medium">
                 <h3>Name</h3>
                 <h3>Time</h3>
                 <h3>Calories</h3>
             </div>
             <div>
                 {
-                    cookOrder.map((item, idx) => <SingleCook key={item.recipe_id} cooking={item} index={idx}></SingleCook>)
+                    cookOrder.map((item, idx) => <SingleCook key={item.recipe_id} cookingBefore={item} index={idx}></SingleCook>)
                 }
             </div>
 

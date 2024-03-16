@@ -10,11 +10,11 @@ function App() {
 
   const handleWantToCook = (cookItem) => {
     const isExist = cook.find(item => item.recipe_id === cookItem.recipe_id);
-    if(!isExist){
-      setCook([...cook,cookItem])
+    if(isExist){
+      alert('exist')
     }
     else{
-      alert('exist')
+      setCook([...cook,cookItem])
     }
   }
   return (
