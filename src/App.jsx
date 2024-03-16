@@ -1,4 +1,5 @@
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { useState } from 'react';
 import './App.css';
 import Banner from './Component/Banner/Banner';
@@ -10,11 +11,11 @@ function App() {
 
   const handleWantToCook = (cookItem) => {
     const isExist = cook.find(item => item.recipe_id === cookItem.recipe_id);
-    if(isExist){
-      alert('exist')
+    if (isExist) {
+      toast("Already Exist")
     }
-    else{
-      setCook([...cook,cookItem])
+    else {
+      setCook([...cook, cookItem])
     }
   }
   return (
@@ -22,6 +23,7 @@ function App() {
       <Header></Header>
       <Banner></Banner>
       <Recipes handleWantToCook={handleWantToCook} cookOrders={cook}></Recipes>
+      <ToastContainer></ToastContainer>
     </>
   )
 }
