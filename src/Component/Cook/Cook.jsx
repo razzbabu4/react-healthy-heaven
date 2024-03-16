@@ -2,7 +2,7 @@
 
 const Cook = () => {
     return (
-        <div className="col-span-4 border-2">
+        <div className="lg:col-span-4 border-2">
             <h1>cook</h1>
         </div>
     );

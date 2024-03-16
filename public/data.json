@@ -1,6 +1,6 @@
 [
     {
-      "recipe_image": "chicken_teriyaki.jpg",
+      "recipe_image": "https://i.ibb.co/VpgYkgM/food-one.jpg",
       "recipe_id": "001",
       "recipe_name": "Chicken Teriyaki",
       "short_description": "A classic Japanese dish featuring tender chicken glazed in a sweet and savory teriyaki sauce.",
@@ -10,11 +10,11 @@
         "200 g basil leaf",
         "400 g mushroom"
       ],
-      "preparing_time": "30 min",
+      "preparing_time": 30,
       "calories": "320 calories"
     },
     {
-      "recipe_image": "spaghetti_carbonara.jpg",
+      "recipe_image": "https://i.ibb.co/TqLJpPT/food-two.jpg",
       "recipe_id": "002",
       "recipe_name": "Spaghetti Carbonara",
       "short_description": "An Italian favorite, spaghetti carbonara is a creamy pasta dish with crispy bacon and Parmesan cheese.",
@@ -24,11 +24,11 @@
         "4 eggs",
         "100 g grated Parmesan cheese"
       ],
-      "preparing_time": "25 min",
+      "preparing_time": 25,
       "calories": "450 calories"
     },
     {
-      "recipe_image": "vegetable_curry.jpg",
+      "recipe_image": "https://i.ibb.co/23snxXs/food-three.jpg",
       "recipe_id": "003",
       "recipe_name": "Vegetable Curry",
       "short_description": "A flavorful and aromatic Indian curry packed with assorted vegetables and spices.",
@@ -39,11 +39,11 @@
         "200 ml coconut milk",
         "Spices: turmeric, cumin, coriander, chili powder"
       ],
-      "preparing_time": "40 min",
+      "preparing_time": 40,
       "calories": "280 calories"
     },
     {
-      "recipe_image": "greek_salad.jpg",
+      "recipe_image": "https://i.ibb.co/HF5RLx4/food-four.jpg",
       "recipe_id": "004",
       "recipe_name": "Greek Salad",
       "short_description": "A refreshing salad bursting with Mediterranean flavors, featuring crisp vegetables, olives, and feta cheese.",
@@ -55,11 +55,11 @@
         "50 g Kalamata olives",
         "50 ml olive oil"
       ],
-      "preparing_time": "15 min",
+      "preparing_time": 15,
       "calories": "180 calories"
     },
     {
-      "recipe_image": "sushi_roll.jpg",
+      "recipe_image": "https://i.ibb.co/VDrMHXz/food-five.jpg",
       "recipe_id": "005",
       "recipe_name": "Sushi Roll",
       "short_description": "Create your own sushi rolls at home with this simple and customizable recipe.",
@@ -70,11 +70,11 @@
         "100 g avocado",
         "100 g raw salmon or tuna"
       ],
-      "preparing_time": "20 min",
+      "preparing_time": 20,
       "calories": "250 calories"
     },
     {
-      "recipe_image": "chocolate_cake.jpg",
+      "recipe_image": "https://i.ibb.co/yXmqRG3/food-six.jpg",
       "recipe_id": "006",
       "recipe_name": "Chocolate Cake",
       "short_description": "Indulge your sweet tooth with this moist and decadent chocolate cake, perfect for any occasion.",
@@ -86,7 +86,7 @@
         "2 eggs",
         "200 ml milk"
       ],
-      "preparing_time": "50 min",
+      "preparing_time": 50,
       "calories": "380 calories"
     }
   ]
