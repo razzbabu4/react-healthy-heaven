@@ -5,7 +5,7 @@ import SingleRecipes from "../SingleRecipes/SingleRecipes";
 
 
 
-const Recipes = ({handleWantToCook, cookOrders}) => {
+const Recipes = ({handleWantToCook, cookOrders, handleCurrentlyCooking, cooking}) => {
 
     const [recipes, setRecipes] = useState([]);
 
@@ -28,7 +28,7 @@ const Recipes = ({handleWantToCook, cookOrders}) => {
                 }
                 </div>
                 <div className="lg:col-span-4">
-                <Cook cookOrder={cookOrders}></Cook>
+                <Cook cookOrder={cookOrders} handleCurrentlyCooking={handleCurrentlyCooking} cooking={cooking}></Cook>
                 </div>
             </div>
 
@@ -37,7 +37,8 @@ const Recipes = ({handleWantToCook, cookOrders}) => {
 };
 Recipes.propTypes ={
     handleWantToCook: PropTypes.func,
-    cookOrders: PropTypes.array
+    cookOrders: PropTypes.array,
+    handleCurrentlyCooking: PropTypes.func
 }
 
 export default Recipes;

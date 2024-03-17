@@ -8,21 +8,27 @@ import Recipes from './Component/Recipes/Recipes';
 
 function App() {
   const [cook, setCook] = useState([]);
+  const [cooking, setCooking] = useState([]);
 
   const handleWantToCook = (cookItem) => {
     const isExist = cook.find(item => item.recipe_id === cookItem.recipe_id);
     if (isExist) {
-      toast("Already Exist")
+      toast("Already Recipe Added")
     }
     else {
       setCook([...cook, cookItem])
     }
   }
+
+  const handleCurrentlyCooking = (currentCooking) => {
+    // console.log('clicked preparing', currentCooking)
+    setCooking([...cooking, currentCooking])
+  }
   return (
     <>
       <Header></Header>
       <Banner></Banner>
-      <Recipes handleWantToCook={handleWantToCook} cookOrders={cook}></Recipes>
+      <Recipes handleWantToCook={handleWantToCook} cookOrders={cook} handleCurrentlyCooking={handleCurrentlyCooking} cooking={cooking}></Recipes>
       <ToastContainer></ToastContainer>
     </>
   )
