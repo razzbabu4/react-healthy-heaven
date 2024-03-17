@@ -1,93 +1,92 @@
 [
-    {
-      "recipe_image": "https://i.ibb.co/VpgYkgM/food-one.jpg",
-      "recipe_id": "001",
-      "recipe_name": "Chicken Teriyaki",
-      "short_description": "A classic Japanese dish featuring tender chicken glazed in a sweet and savory teriyaki sauce.",
-      "ingredients": [
-        "550 g chicken",
-        "120 ml soy sauce",
-        "200 g basil leaf",
-        "400 g mushroom"
-      ],
-      "preparing_time": 30,
-      "calories": 320
-    },
-    {
-      "recipe_image": "https://i.ibb.co/TqLJpPT/food-two.jpg",
-      "recipe_id": "002",
-      "recipe_name": "Spaghetti Carbonara",
-      "short_description": "An Italian favorite, spaghetti carbonara is a creamy pasta dish with crispy bacon and Parmesan cheese.",
-      "ingredients": [
-        "400 g spaghetti",
-        "200 g bacon",
-        "4 eggs",
-        "100 g grated Parmesan cheese"
-      ],
-      "preparing_time": 25,
-      "calories": 450
-    },
-    {
-      "recipe_image": "https://i.ibb.co/23snxXs/food-three.jpg",
-      "recipe_id": "003",
-      "recipe_name": "Vegetable Curry",
-      "short_description": "A flavorful and aromatic Indian curry packed with assorted vegetables and spices.",
-      "ingredients": [
-        "300 g mixed vegetables (carrots, potatoes, peas)",
-        "2 onions",
-        "4 tomatoes",
-        "200 ml coconut milk",
-        "Spices: turmeric, cumin, coriander, chili powder"
-      ],
-      "preparing_time": 40,
-      "calories": 280
-    },
-    {
-      "recipe_image": "https://i.ibb.co/HF5RLx4/food-four.jpg",
-      "recipe_id": "004",
-      "recipe_name": "Greek Salad",
-      "short_description": "A refreshing salad bursting with Mediterranean flavors, featuring crisp vegetables, olives, and feta cheese.",
-      "ingredients": [
-        "2 tomatoes",
-        "1 cucumber",
-        "1 red onion",
-        "100 g feta cheese",
-        "50 g Kalamata olives",
-        "50 ml olive oil"
-      ],
-      "preparing_time": 15,
-      "calories": 180
-    },
-    {
-      "recipe_image": "https://i.ibb.co/VDrMHXz/food-five.jpg",
-      "recipe_id": "005",
-      "recipe_name": "Sushi Roll",
-      "short_description": "Create your own sushi rolls at home with this simple and customizable recipe.",
-      "ingredients": [
-        "200 g sushi rice",
-        "4 nori seaweed sheets",
-        "100 g cucumber",
-        "100 g avocado",
-        "100 g raw salmon or tuna"
-      ],
-      "preparing_time": 20,
-      "calories": 250
-    },
-    {
-      "recipe_image": "https://i.ibb.co/yXmqRG3/food-six.jpg",
-      "recipe_id": "006",
-      "recipe_name": "Chocolate Cake",
-      "short_description": "Indulge your sweet tooth with this moist and decadent chocolate cake, perfect for any occasion.",
-      "ingredients": [
-        "200 g all-purpose flour",
-        "200 g sugar",
-        "100 g cocoa powder",
-        "150 ml vegetable oil",
-        "2 eggs",
-        "200 ml milk"
-      ],
-      "preparing_time": 50,
-      "calories": 380
-    }
-  ]
-  
+  {
+    "recipe_image": "https://i.ibb.co/VpgYkgM/food-one.jpg",
+    "recipe_id": "001",
+    "recipe_name": "Chicken Teriyaki",
+    "short_description": "A classic Japanese dish featuring tender chicken glazed in a sweet and savory teriyaki sauce.",
+    "ingredients": [
+      "550 g chicken",
+      "120 ml soy sauce",
+      "200 g basil leaf",
+      "400 g mushroom"
+    ],
+    "preparing_time": 30,
+    "calories": 320
+  },
+  {
+    "recipe_image": "https://i.ibb.co/TqLJpPT/food-two.jpg",
+    "recipe_id": "002",
+    "recipe_name": "Spaghetti Carbonara",
+    "short_description": "An Italian favorite, spaghetti carbonara is a creamy pasta dish with crispy bacon and Parmesan cheese.",
+    "ingredients": [
+      "400 g spaghetti",
+      "200 g bacon",
+      "4 eggs",
+      "100 g grated Parmesan cheese"
+    ],
+    "preparing_time": 25,
+    "calories": 450
+  },
+  {
+    "recipe_image": "https://i.ibb.co/23snxXs/food-three.jpg",
+    "recipe_id": "003",
+    "recipe_name": "Vegetable Curry",
+    "short_description": "A flavorful and aromatic Indian curry packed with assorted vegetables and spices.",
+    "ingredients": [
+      "300 g mixed vegetables (carrots, potatoes, peas)",
+      "2 onions",
+      "4 tomatoes",
+      "200 ml coconut milk",
+      "Spices: turmeric, cumin, coriander, chili powder"
+    ],
+    "preparing_time": 40,
+    "calories": 280
+  },
+  {
+    "recipe_image": "https://i.ibb.co/HF5RLx4/food-four.jpg",
+    "recipe_id": "004",
+    "recipe_name": "Greek Salad",
+    "short_description": "A refreshing salad bursting with Mediterranean flavors, featuring crisp vegetables, olives, and feta cheese.",
+    "ingredients": [
+      "2 tomatoes",
+      "1 cucumber",
+      "1 red onion",
+      "100 g feta cheese",
+      "50 g Kalamata olives",
+      "50 ml olive oil"
+    ],
+    "preparing_time": 15,
+    "calories": 180
+  },
+  {
+    "recipe_image": "https://i.ibb.co/VDrMHXz/food-five.jpg",
+    "recipe_id": "005",
+    "recipe_name": "Sushi Roll",
+    "short_description": "Create your own sushi rolls at home with this simple and customizable recipe.",
+    "ingredients": [
+      "200 g sushi rice",
+      "4 nori seaweed sheets",
+      "100 g cucumber",
+      "100 g avocado",
+      "100 g raw salmon or tuna"
+    ],
+    "preparing_time": 20,
+    "calories": 250
+  },
+  {
+    "recipe_image": "https://i.ibb.co/yXmqRG3/food-six.jpg",
+    "recipe_id": "006",
+    "recipe_name": "Chocolate Cake",
+    "short_description": "Indulge your sweet tooth with this moist and decadent chocolate cake, perfect for any occasion.",
+    "ingredients": [
+      "200 g all-purpose flour",
+      "200 g sugar",
+      "100 g cocoa powder",
+      "150 ml vegetable oil",
+      "2 eggs",
+      "200 ml milk"
+    ],
+    "preparing_time": 50,
+    "calories": 380
+  }
+]

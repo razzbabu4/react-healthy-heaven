@@ -5,7 +5,7 @@ import SingleRecipes from "../SingleRecipes/SingleRecipes";
 
 
 
-const Recipes = ({handleWantToCook, cookOrders, handleCurrentlyCooking, cooking}) => {
+const Recipes = ({ handleWantToCook, cookOrders, handleCurrentlyCooking, cooking, preparing_time, calories }) => {
 
     const [recipes, setRecipes] = useState([]);
 
@@ -22,24 +22,26 @@ const Recipes = ({handleWantToCook, cookOrders, handleCurrentlyCooking, cooking}
                 <p className="lg:w-2/3 mx-auto my-4 lg:my-8 text-[#150B2B99]">A Feast for the Senses! Dive into our treasure trove of tantalizing recipes, curated for every palate. From savory classics to delectable desserts, embark on a culinary journey that will elevate your cooking skills and delight your taste buds.</p>
             </div>
             <div className="grid lg:grid-cols-12 gap-6">
-                <div className="lg:col-span-8 grid grid-cols-1 lg:grid-cols-2 gap-6">
-                {
-                    recipes.map(item => <SingleRecipes key={item.recipe_id} recipes={item} handleWantToCook={handleWantToCook}></SingleRecipes>)
-                }
+                <div className="lg:col-span-7 grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    {
+                        recipes.map(item => <SingleRecipes key={item.recipe_id} recipes={item} handleWantToCook={handleWantToCook}></SingleRecipes>)
+                    }
                 </div>
-                <div className="lg:col-span-4">
-                <Cook cookOrder={cookOrders} handleCurrentlyCooking={handleCurrentlyCooking} cooking={cooking}></Cook>
+                <div className="lg:col-span-5">
+                    <Cook cookOrder={cookOrders} handleCurrentlyCooking={handleCurrentlyCooking} cooking={cooking} preparing_time={preparing_time} calories={calories}></Cook>
                 </div>
             </div>
 
         </div>
     );
 };
-Recipes.propTypes ={
+Recipes.propTypes = {
     handleWantToCook: PropTypes.func,
     cookOrders: PropTypes.array,
     handleCurrentlyCooking: PropTypes.func,
-    cooking: PropTypes.array
+    cooking: PropTypes.array,
+    preparing_time: PropTypes.number,
+    calories: PropTypes.number
 }
 
 export default Recipes;

@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 const SingleCook = ({ cookingBefore, index, handleCurrentlyCooking }) => {
-    const {recipe_id, recipe_name, preparing_time, calories } = cookingBefore;
+    const { recipe_id, recipe_name, preparing_time, calories } = cookingBefore;
     return (
         <div className='mb-2 flex justify-around items-center bg-[#28282808] text-[#878787] font-medium py-4'>
             <h3>{index + 1}</h3>
