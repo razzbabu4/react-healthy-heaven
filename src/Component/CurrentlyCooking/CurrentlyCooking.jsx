@@ -1,5 +1,5 @@
-
-const CurrentlyCooking = ({cooking, index}) => {
+import PropTypes from 'prop-types';
+const CurrentlyCooking = ({ cooking, index }) => {
     const { recipe_name, preparing_time, calories } = cooking;
     return (
         <div className='mb-2 flex justify-around items-center bg-[#28282808] text-[#878787] font-medium py-4'>
@@ -11,4 +11,8 @@ const CurrentlyCooking = ({cooking, index}) => {
     );
 };
 
+CurrentlyCooking.propTypes = {
+    cooking: PropTypes.array,
+    index: PropTypes.number
+}
 export default CurrentlyCooking;

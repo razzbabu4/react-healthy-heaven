@@ -20,9 +20,12 @@ function App() {
     }
   }
 
-  const handleCurrentlyCooking = (currentCooking) => {
+  const handleCurrentlyCooking = (currentCooking, recipe_id) => {
     // console.log('clicked preparing', currentCooking)
-    setCooking([...cooking, currentCooking])
+    setCooking([...cooking, currentCooking]);
+
+    const remainingOrder = cook.filter(item => item.recipe_id !== recipe_id);
+    setCook(remainingOrder);
   }
   return (
     <>

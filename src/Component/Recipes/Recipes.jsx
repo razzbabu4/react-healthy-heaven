@@ -38,7 +38,8 @@ const Recipes = ({handleWantToCook, cookOrders, handleCurrentlyCooking, cooking}
 Recipes.propTypes ={
     handleWantToCook: PropTypes.func,
     cookOrders: PropTypes.array,
-    handleCurrentlyCooking: PropTypes.func
+    handleCurrentlyCooking: PropTypes.func,
+    cooking: PropTypes.array
 }
 
 export default Recipes;
